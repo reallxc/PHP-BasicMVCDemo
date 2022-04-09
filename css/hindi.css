@@ -1,0 +1,192 @@
+body {
+  margin: 0 0;
+  background-color: #EFE2BA;
+  font-family: 'Yaldevi', sans-serif;
+}
+button {
+  height: 25px;
+  background-color: white;
+  font-size: 16px;
+  margin: 5px 5px;
+}
+.wrapper {
+  margin: 0 0;
+  width: 100%;
+  height: auto;
+  background-color: #D79922;
+  position: relative;
+}
+
+.bannertitle {
+  width: auto;
+  display: inline;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
+  padding: 10px;
+  color: #F13C20;
+}
+
+nav {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F13C20;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B68811;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  height: calc(100vh - 100px);
+  position: relative;
+  overflow-y: scroll;
+}
+
+.content h1 {
+  margin: 20px 0;
+}
+
+.content div {
+  overflow-x: hidden;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.contentLeft {
+  height: calc(100% - 20px);
+  margin: 10px 0;
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+.contentLeft p {
+  padding: 6px;
+  font-size: 22px;
+}
+
+.contentRight {
+  height: calc(100% - 20px);
+  margin: 10px 0;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+.contentRight img {
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+.content table {
+  margin: 20px 20px;
+  width: calc(100% - 40px);
+  border-collapse: collapse;
+}
+.forumDiv {
+
+}
+.forumList {
+  border-bottom: 1px solid #AAA;
+}
+.forumList table,tr,td {
+  border: 1px solid #AAA;
+}
+
+.forumUsername {
+  width: 120px;
+  text-align: right;
+  padding: 5px;
+}
+
+.forumTitle {
+  padding: 5px;
+}
+
+.forumContent {
+  padding: 5px;
+  white-space:pre;
+  height: 100px;
+}
+
+.forumDate {
+  text-align: right;
+  width: 300px;
+  font-style: italic;
+  padding: 5px;
+}
+.forumCount {
+  width: 20px;
+}
+
+.loginDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userLogin {
+  font-size: 26px;
+}
+
+.userLogin table {
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  position: relative;
+}
+
+footer div {
+  display: inline;
+  color: #F13C20;
+  font-size: 14px;
+  position: absolute;
+  line-height: 50px;
+}
+
+.footerLeft {
+  left: 0;
+}
+
+.footerRight {
+  right: 0;
+}

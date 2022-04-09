@@ -1,0 +1,188 @@
+body {
+  margin: 0 0;
+  background-color: #BBB;
+  font-family: 'Open Sans', sans-serif;
+}
+button {
+  height: 25px;
+  background-color: white;
+  font-size: 16px;
+  margin: 5px 5px;
+}
+.wrapper {
+  margin: 0 0;
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  position: relative;
+}
+
+.bannertitle {
+  width: auto;
+  display: inline;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-family: 'Stick No Bills', sans-serif;
+  padding: 10px;
+  color: white;
+}
+
+nav {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  height: calc(100vh - 100px);
+  position: relative;
+  overflow-y: scroll;
+}
+
+.content h1 {
+  margin: 20px 0;
+}
+
+.content div {
+  overflow-x: hidden;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.contentLeft {
+  height: calc(100% - 20px);
+  margin: 10px 0;
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+.contentLeft p {
+  padding: 6px;
+  font-size: 22px;
+}
+
+.contentRight {
+  height: calc(100% - 20px);
+  margin: 10px 0;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+.contentRight img {
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+.content table {
+  margin: 20px 20px;
+  width: calc(100% - 40px);
+  border-collapse: collapse;
+}
+
+.leaderboard {
+  font-size: 26px;
+  text-align: center;
+}
+
+.leaderboard tr {
+  border-bottom: 1px solid #666;
+  height: 50px;
+}
+
+.leaderboard th {
+  font-size: 28px;
+}
+
+.leaderboard td {
+  font-size: 20px;
+}
+
+.leaderboardOption {
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: right;
+}
+.leaderboardOption select {
+  height: 25px;
+  background-color: white;
+  font-size: 16px;
+  margin: 5px 5px;
+}
+
+.loginDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userLogin {
+  font-size: 26px;
+}
+
+.userLogin table {
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  position: relative;
+}
+
+footer div {
+  display: inline;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  line-height: 50px;
+}
+
+.footerLeft {
+  left: 0;
+}
+
+.footerRight {
+  right: 0;
+}
